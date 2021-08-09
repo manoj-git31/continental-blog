@@ -25,3 +25,13 @@ Node.js for backend to handle database transactions
 MongoDB, NoSQL free Cluster for database
 Express.js Framework to handle api calls
 Mongoose, to handle MongoDb queries.
+
+
+Deployment
+--> This project will be deployed in 2 parts
+  1. Front End: Angular Application
+  2. Back End: Nodejs Application
+
+--> I have experience on AWS, and following are the ways we can deploy them
+  1. Angular application is a static application and can be deployed using s3, alternatively it can also be deployed on Node Server on an EC2 instance or an ECS Cluster (but this is comparitively costly)
+  2. Node js application can be packaged on a node server Docker file and deployed on an EC2 instance/ECS Cluster
